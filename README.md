@@ -78,6 +78,9 @@ Open `settings.json` in any text editor and set your centre frequency, and optio
 "UserLatitude": 0,
 "UserLongitude": 0
 ```
+I highly recommend setting your lat/long to help prevent false positives. Enter as a whole number - do not include the decimal places.
+The following website will provide you with your coordinates:
+https://www.latlong.net/
 
 Decoded positions will print to the console. A KML file (`live.kml`) is written to the same folder and updated on each successful decode.
 ---
@@ -116,14 +119,9 @@ Each successful decode appends the position to `live.kml` in the program folder.
 1. Open Google Earth Pro
 2. Go to **File → Open** and select `googleearthloader.kml`
 3. Decoded positions appear as placemarks on the map, labelled with the callsign
-4. Google Earth will automatically poll `live.kml` and update the map as new positions are decoded — no manual refresh needed
+4. Google Earth will automatically poll `live.kml` and update the map as new positions are decoded — no manual refresh needed.
 
-**Google Earth web (earth.google.com):**
-1. Click the menu (☰) → **Import KML file**
-2. Select `googleearthloader.kml`
-3. Positions appear on the map and update automatically as new decodes come in
-
-Each placemark includes the callsign, latitude, longitude, altitude, and the time of decode.
+Each placemark includes the callsign, latitude and longitude.
 
 ---
 
