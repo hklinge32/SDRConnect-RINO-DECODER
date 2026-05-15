@@ -1,4 +1,4 @@
-# Garmin RINO Burst Decoder
+# Garmin RINO Location Decoder
 
 A self-calibrating narrowband burst decoder targeting Garmin RINO position packets transmitted over FRS/GMRS frequencies. Captures live IQ from SDRconnect at 250 ksps, detects and decodes position bursts in real time.
 
